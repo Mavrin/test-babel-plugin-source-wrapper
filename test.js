@@ -1,3 +1,3 @@
-module.exports = {
-	test:'fdsaf'
-}
+require.ensure([], () => {
+	require('./ensure');
+}, 'test');

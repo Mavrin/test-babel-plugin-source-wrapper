@@ -1,1 +1,2 @@
-var s = require('./test')
+require('./test');
+//var _ = require('lodash');

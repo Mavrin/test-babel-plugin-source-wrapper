@@ -13,9 +13,9 @@ module.exports = {
                     loader: 'babel',
                     query: {
                         presets: ['es2015'],
-                        plugins: [
-                             [require('babel-plugin-source-wrapper'), {runtime: true}]
-                        ],
+                         plugins: [
+                              ['source-wrapper', {blackbox:[],runtime: true}]
+                         ],
                         cacheDirectory: path.join(__dirname,'./babelJSsd')
                     }
                 },
